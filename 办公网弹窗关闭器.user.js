@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         办公网弹窗关闭器
 // @namespace    http://www.jsmot.com
-// @version      0.1
+// @version      0.2
 // @description  江苏交通OA系统专用脚本
 // @author       roylaw
 // @license      MIT
