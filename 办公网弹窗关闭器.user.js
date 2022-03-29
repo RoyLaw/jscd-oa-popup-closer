@@ -3,7 +3,7 @@
 // @namespace    http://www.jsmot.com
 // @version      0.2
 // @description  江苏交通OA系统专用脚本
-// @author       roylaw
+// @author       Roy Law
 // @license      MIT
 // @match        *://172.26.14.6:8888/*
 // @icon         https://img.icons8.com/ultraviolet/2x/resize.png
