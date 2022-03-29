@@ -5,7 +5,7 @@
 // @description  内部办公网专用脚本
 // @author       roylaw
 // @license      MIT
-// @match        https://172.26.14.6:8888/*
+// @match        *://172.26.14.6:8888/*
 // @icon         https://img.icons8.com/ultraviolet/2x/resize.png
 // @grant        unsafeWindow
 // ==/UserScript==
