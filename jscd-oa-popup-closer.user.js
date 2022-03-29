@@ -10,33 +10,36 @@
 // @grant        unsafeWindow
 // ==/UserScript==
 
-(function() {
-    'use strict';
+(function () {
+  'use strict';
 
-    // Your code here...
+  // Your code here...
 
-    unsafeWindow.check = function(){return true;} //rip the agreement popup.
+  unsafeWindow.check = function () {
+    return true;
+  } //rip the agreement popup.
 
-    var timer = setInterval(function(){
-      try{
+  var timer = setInterval(function () {
+    try {
 
-          if (document.querySelector('div.aui_state_lock a.aui_close')) var getOut =1; //  the last btn of this checking list.
+      if (document.querySelector('div.aui_state_lock a.aui_close')) var getOut = 1; //  the last btn of this checking list.
 
-         document.querySelector('a.aui_close').click();
-         document.querySelector('div.aui_state_lock a.aui_close').click();
+      document.querySelector('a.aui_close').click();
+      document.querySelector('div.aui_state_lock a.aui_close').click();
 
-          if (getOut) {clearInterval(timer);
-                       console.log("Loop ended.");}
+      if (getOut) {
+        clearInterval(timer);
+        console.log("Loop ended.");
       }
-      catch(e){
-        if (window.console){
-          window.console.log("Error in this userscript");
-        }
+    }
+    catch (e) {
+      if (window.console) {
+        window.console.log("Error in this userscript");
       }
-    }, 1000);
+    }
+  }, 1000);
 
-    this.setData({
-          interval: timer
-         });
+  this.setData({
+    interval: timer
+  });
 })();
-
