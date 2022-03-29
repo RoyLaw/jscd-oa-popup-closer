@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         江苏交通办公网公告弹出框自动关闭脚本
-// @namespace    http://tampermonkey.net/
+// @name         办公网弹窗关闭器
+// @namespace    http://www.jsmot.com
 // @version      0.1
-// @description  内部办公网专用脚本
+// @description  江苏交通OA系统专用脚本
 // @author       roylaw
 // @license      MIT
 // @match        *://172.26.14.6:8888/*
