@@ -47,7 +47,7 @@ The user script is based on TamperMonkey plugin for Chrome browsers.
 
 That means you should have TamperMonkey(GreasyFork) installed first. 
 
-Then, you can install and subscrible this userjs script on <a href="https://openuserjs.org/scripts/roylaw/%E6%B1%9F%E8%8B%8F%E4%BA%A4%E9%80%9A%E5%8A%9E%E5%85%AC%E7%BD%91%E5%85%AC%E5%91%8A%E5%BC%B9%E5%87%BA%E6%A1%86%E8%87%AA%E5%8A%A8%E5%85%B3%E9%97%AD%E8%84%9A%E6%9C%AC">OpenUserJS</a>.
+Then, you can install and subscrible this userjs script on <a href="https://openuserjs.org/scripts/roylaw/%E5%8A%9E%E5%85%AC%E7%BD%91%E5%BC%B9%E7%AA%97%E5%85%B3%E9%97%AD%E5%99%A8">OpenUserJS</a>.
 
 Now, the script can mute some popup when you visit the OA system.
 
