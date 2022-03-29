@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  内部办公网专用脚本
-// @author       Roy Law
+// @author       roylaw
 // @license      MIT
 // @match        https://172.26.14.6:8888/*
 // @icon         https://img.icons8.com/ultraviolet/2x/resize.png
