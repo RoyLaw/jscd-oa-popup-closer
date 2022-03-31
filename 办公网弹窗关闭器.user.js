@@ -22,10 +22,10 @@
   var timer = setInterval(function () {
     try {
 
-      if (document.querySelector('div.aui_state_lock a.aui_close')) var getOut = 1; //  the last btn of this checking list.
+      if (document.querySelector('a.aui_close')) var getOut = 1; //  the last btn of this checking list.
 
-      //document.querySelector('a.aui_close').click();
-      document.querySelector('div.aui_state_lock a.aui_close').click();
+      document.querySelector('a.aui_close').click();
+      //document.querySelector('div.aui_state_lock a.aui_close').click();
 
       if (getOut) {
         clearInterval(timer);
