@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         办公网弹窗关闭器
 // @namespace    http://www.jsmot.com
-// @version      0.2
+// @version      0.2.1
 // @description  江苏交通OA系统专用脚本
 // @author       Roy Law
 // @license      MIT
@@ -24,7 +24,7 @@
 
       if (document.querySelector('div.aui_state_lock a.aui_close')) var getOut = 1; //  the last btn of this checking list.
 
-      document.querySelector('a.aui_close').click();
+      //document.querySelector('a.aui_close').click();
       document.querySelector('div.aui_state_lock a.aui_close').click();
 
       if (getOut) {
