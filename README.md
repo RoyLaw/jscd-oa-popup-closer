@@ -55,7 +55,7 @@ Now, the script can mute some popup when you visit the OA system.
 ## Roadmap and Changelog
 
 - [x] Fix safety notification on login page
-- [x] Fix saving water notification on main page
+- ~~[x] Fix saving water notification on main page
 - [x] Fix safety notification on main page
 
 See the [open issues](https://github.com/RoyLaw/jscd-oa-popup-closer/issues) for a full list of proposed features (and known issues).
